@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <nav class="nav">
+      <div>
+        <img class="logo" src="images/1_2_3_go-removebg-preview.png" alt="logo">
+      </div>
+      <div class="links">
+        <a href="index.html">Says</a>
+        <a href="farms.html">Experience</a>
+      </div>
+      <div class="your-home">
+        <a href="homes.html">Airbnb Your House</a>
+        <i class="fa-solid fa-globe"></i>
+      </div>
+    </nav>
+
+    <!-- Search Bar for mobile screen-->
+    <div class="search-bar">
+      <i class="fa fa-search" aria-hidden="true"></i>
+      <input type="text" placeholder="Start your search">
+    </div>
+
+    <!-- Form Section -->
+    <form>
+      <div class="form-container">
+        <div class="section1">
+          <select id="services" name="services">
+            <option value="">Where</option>
+            <option value="service2">Service 2</option>
+            <option value="service3">Service 3</option>
+            <option value="service4">Service 4</option>
+          </select>
+        </div>
+
+        <!-- Check-in Date -->
+        <label for="check-in">Check-In Date:</label>
+        <input type="date" id="check-in" name="check-in" required>
+
+        <!-- Check-out Date -->
+        <label for="check-out">Check-Out Date:</label>
+        <input type="date" id="check-out" name="check-out" required>
+        <select id="services" name="services">
+          <option value="">Who</option>
+          <option value="service2">Service 2</option>
+          <option value="service3">Service 3</option>
+          <option value="service4">Service 4</option>
+        </select>
+        <div class="search-background">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+      </div>
+    </form>
+
+    <!-- Info section -->
+    <div class="nav-container">
+      <a href="index.html">
+        <img class="nav-img" src="images/navimg1.jpg" alt="Clickable Image" />
+        <p>Amazing views</p>
+      </a>
+      <a href="farms.html">
+        <img class="nav-img" src="images/navimg2.jpg" alt="Clickable Image" />
+        <p>Farms</p>
+      </a>
+      <a href="tools.html">
+        <img class="nav-img" src="images/navimg3.jpg" alt="Clickable Image" />
+        <p>Amazing tools</p>
+      </a>
+      <a href="amazing.html">
+        <img class="nav-img" src="images/navimg4.jpg" alt="Clickable Image" />
+        <p>Historical Homes</p>
+      </a>
+      <a href="amazing.html">
+        <img class="nav-img" src="images/navimg5.jpg" alt="Clickable Image" />
+        <p>Beachfront</p>
+      </a>
+      <a href="amazing.html">
+        <img class="nav-img" src="images/navimg6.jpg" alt="Clickable Image" />
+        <p>Countryside</p>
+      </a>
+      <a href="amazing.html">
+        <img class="nav-img" src="images/navimg7.jpg" alt="Clickable Image" />
+        <p>Rooms</p>
+      </a>
+      <a href="amazing.html">
+        <img class="nav-img" src="images/navimg8.jpg" alt="Clickable Image" />
+        <p>Lakefront</p>
+      </a>
+      <a href="amazing.html">
+        <img class="nav-img" src="images/navimg9.jpg" alt="Clickable Image" />
+        <p>Cabins</p>
+      </a>
+      <a href="amazing.html">
+        <img class="nav-img" src="images/navimg10.jpg" alt="Clickable Image" />
+        <p>Beach</p>
+      </a>
+
+      <div class="filters-section">
+        <div class="filters">Filters</div>
+        <div class="toggle-off">
+          <p>Disply total before taxes</p>
+          <i class="fa-solid fa-toggle-off"></i>
+        </div>
+      </div>
+
+    </div>
+    <!-- Cards -->
+    <div class="container">
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/farmimg1.avif" alt="Image 1">
+          <div class="card-content">
+            <p>Mashobra, India</p>
+            <p>Mountain viewsMountain views</p>
+            <p>22–27 Dec</p>
+            <p>₹26,200 per night </p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/farmsimg2.avif" alt="Image 2">
+          <div class="card-content">
+            <p>Mashobra, India</p>
+            <p>Mountain and valley viewsMountain</p>
+            <p>4–9 Jan</p>
+            <p>₹17,012 per night
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/farmsimg3.avif" alt="Image 3">
+          <div class="card-content">
+            <p>Udaipur, India</p>
+            <p>City viewsCity views</p>
+            <p>12–17 Jan</p>
+            <p>₹28,244 per night</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/farmsimg4.avif" alt="Image 3">
+          <div class="card-content">
+            <p>Gurugram, India</p>
+            <p>998 kilometres away998</p>
+            <p>6–11 Jan6</p>
+            <p>₹4,077 per night</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/farmsimg6.avif" alt="Image 3">
+          <div class="card-content">
+            <p>Noida, India</p>
+            <p>987 kilometres away987</p>
+            <p>4–9 Jan</p>
+            <p>₹6,391 per night</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/farmsimg5.avif" alt="Image 3">
+          <div class="card-content">
+            <p>Cheog, India</p>
+            <p>1,168 kilometres away</p>
+            <p>1–6 Jan</p>
+            <p>₹19,514 night</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/cardimg7.avif" alt="Image 3">
+          <div class="card-content">
+            <p>Bhitar Wali, India</p>
+            <p>Mountain and garden view</p>
+            <p>6–11 Jan</p>
+            <p>₹9,028 night</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/cardimg8.avif" alt="Image 3">
+          <div class="card-content">
+            <p>Mussoorie, India</p>
+            <p>1,071 kilometres away</p>
+            <p>20–25 Jan</p>
+            <p>₹2,956 night</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/cardimg1.avif" alt="Image 1">
+          <div class="card-content">
+            <p>Fagu, India</p>
+            <p>1,169 kilometres away</p>
+            <p>1–6 Jan</p>
+            <p>₹19,399 night</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/cardimg2.avif" alt="Image 2">
+          <div class="card-content">
+            <p>Dehradun, India</p>
+            <p>City viewsCity views</p>
+            <p>12–17 Jan12</p>
+            <p>₹28,244 per night</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/cardimg3.avif" alt="Image 3">
+          <div class="card-content">
+            <p>Gurugram, India</p>
+            <p>City viewsCity views</p>
+            <p>12–17 Jan12</p>
+            <p>₹28,244 per night</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="card.html" target="_blank">
+        <div class="card">
+          <div class="heart-icon">
+            &#10084;
+          </div>
+          <img src="images/cardimg4.avif" alt="Image 3">
+          <div class="card-content">
+            <p>Udaipur, India</p>
+            <p>City viewsCity views</p>
+            <p>12–17 Jan12</p>
+            <p>₹28,244 per night</p>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <!-- Show map button -->
+    <a href="showmap.html" class="show-map-button">Show map</a>
+</body>
+
+<!-- footer section -->
+<footer>
+  <h3>Inspiration for future getaways</h3>
+  <hr>
+  <div class="footer-section">
+    <div class="footer-div">
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Canmore</li>
+            <li>Pet-friendly rentals</li>
+          </a>
+        </ul>
+
+      </div>
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Benalmádena</li>
+            <li>Flat rentals</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Marbella </li>
+            <li>Villa rentals</li>
+          </a>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-div">
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Benalmádena </li>
+            <li>Beach house rentals</li>
+          </a>
+        </ul>
+
+      </div>
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Benalmádena</li>
+            <li>Flat rentals</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Marbella </li>
+            <li>Villa rentals</li>
+          </a>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-div">
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Prescott</li>
+            <li>Cabin rentals</li>
+          </a>
+        </ul>
+
+      </div>
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Scottsdale</li>
+            <li>Flat rentals</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Marbella </li>
+            <li>Villa rentals</li>
+          </a>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-div">
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Canmore</li>
+            <li>Pet-friendly rentals</li>
+          </a>
+        </ul>
+
+      </div>
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Benalmádena</li>
+            <li>Flat rentals</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Marbella </li>
+            <li>Villa rentals</li>
+          </a>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-div">
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Canmore</li>
+            <li>Pet-friendly rentals</li>
+          </a>
+        </ul>
+
+      </div>
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Benalmádena</li>
+            <li>Flat rentals</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <a href="farms.html">
+            <li class="heading">Marbella </li>
+            <li>Villa rentals</li>
+          </a>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-links">
+    <div class="link-column">
+      <h4>Support</h4>
+      <ul>
+        <a href="farms.html">
+          <li>Help Centre</li>
+          <li>AirCover</li>
+          <li>Disability support</li>
+        </a>
+      </ul>
+    </div>
+    <div class="link-column">
+      <h4>Hosting</h4>
+      <ul>
+        <a href="farms.html">
+          <li>Airbnb your home</li>
+          <li>Community forum</li>
+          <li>Hosting responsibly</li>
+        </a>
+      </ul>
+    </div>
+    <div class="link-column">
+      <h4>Airbnb</h4>
+      <ul>
+        <a href="farms.html">
+          <li>Careers</li>
+          <li>Newsroom</li>
+          <li>Investors</li>
+        </a>
+      </ul>
+    </div>
+</footer>
+
+</html>
